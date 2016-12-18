@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f61d561-2df6-46a9-b18f-be70f870b57c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cardvalidator.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/cardvalidator.css">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -37,6 +38,7 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/cardvalidator.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -180,12 +182,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1482030447750</updated>
-      <workItem from="1482030449216" duration="199000" />
+      <workItem from="1482030449216" duration="1422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199000" />
+    <option name="totallyTimeSpent" value="1422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -291,8 +293,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/cardvalidator.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        <state relative-caret-position="600">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1482030539283" expanded="true" signature="77:184" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="195:600" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="648:672" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="694:714" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="740:935" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="952:1249" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="1284:1504" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="1521:1563" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="1594:1876" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="1937:2266" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="2303:2359" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="2399:2528" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="2555:2592" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="2620:2657" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="2682:2721" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="2750:2789" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="2814:2854" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="2881:2921" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="2945:2985" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="3012:3052" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="3077:3117" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="3144:3184" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="3209:3249" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="3276:3316" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="3344:3384" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="3412:3452" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="3478:3518" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="3546:3586" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="3618:3658" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="3685:3725" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="3756:3796" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="3827:3867" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="3898:3938" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="4020:4078" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="4099:4135" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="4164:4221" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="4282:4318" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="4358:4620" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="4659:4899" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="5083:5104" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="5147:5166" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="5234:5251" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="5378:5466" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="5498:5516" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="5557:5706" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="5831:5856" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="5899:6023" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="6063:6210" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="6281:6284" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="6356:6400" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="6443:6698" ph="{...}" />
+            <marker date="1482030539283" expanded="true" signature="6721:6973" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
