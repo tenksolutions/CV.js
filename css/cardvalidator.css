@@ -1,0 +1,323 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+.vjs-form *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;   
+}
+
+.vjs-form{
+    max-width:400px;
+    min-width: 280px;
+    padding:20px;
+    color:#646464;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    background: #ebebeb;
+    border:1px solid #c4c4c4;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px;
+    -webkit-background-clip: padding-box; 
+    -moz-background-clip: padding; 
+    background-clip: padding-box;   
+}
+
+.vjs-form > .vjs-number,
+.vjs-form > .vjs-info{
+    margin-top:10px;
+}
+
+.vjs-form .vjs-clear{
+    clear:both; 
+}
+
+.vjs-form.vjs-dropshadow{
+    -webkit-box-shadow: 0px 8px 15px 0px rgba(50, 50, 50, 0.1);
+    -moz-box-shadow:    0px 8px 15px 0px rgba(50, 50, 50, 0.1);
+    box-shadow:         0px 8px 15px 0px rgba(50, 50, 50, 0.1);
+}
+
+.vjs-form label{
+    display:block;
+    font-family: inherit;
+    font-size: 14px;
+    text-shadow: 1px 1px #FFF;
+    padding-bottom: 6px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.vjs-form input,
+.vjs-form select{
+    color:inherit;
+    font-family: inherit;
+    border:1px solid #c4c4c4;  
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px;
+    font-size:16px;
+    height:36px;
+    z-index: 0;
+}
+
+.vjs-form input{
+    width: 100%;
+    padding: 6px 8px;
+}
+
+.vjs-form .vjs-number > input{
+    display: inline-block;
+    width:80%;
+    border-top:1px solid #c4c4c4; 
+    border-bottom:1px solid #c4c4c4;   
+    border-right:1px solid #c4c4c4;  
+    -webkit-border-radius: 0px 3px 0px 3px; 
+    -moz-border-radius: 0px 3px 0px 3px; 
+    border-radius: 0px 3px 3px 0px; 
+}
+
+/* Begin Card Provider */
+
+.vjs-number > .vjs-card-provider{
+    float:left;
+    width:20%;
+    height:36px;
+    background:#FFF;
+    border-top:1px solid #c4c4c4; 
+    border-bottom:1px solid #c4c4c4;   
+    border-left:1px solid #c4c4c4;  
+    -webkit-border-radius: 3px 0px 0px 3px; 
+    -moz-border-radius: 3px 0px 0px 3px; 
+    border-radius: 3px 0px 0px 3px; 
+    overflow:hidden;
+}
+
+.vjs-card-provider ul.vjs-providers{
+    margin:0;
+    padding:0;
+    position: relative;
+}
+
+.vjs-card-provider .vjs-providers > li{
+    height:34px;
+    background: url('../img/smallprovidersspritesheet.png');
+    background-repeat: no-repeat;
+    top: 0px;
+}
+.vjs-providers > li#repeat{
+    background-position: 50% 0px;
+}
+.vjs-providers > li#default{
+    background-position: 50% 0px;
+}
+.vjs-providers > li#citi{
+    background-position: 50% -34px;
+}
+.vjs-providers > li#discover{
+    background-position: 50% -68px;
+}
+.vjs-providers > li#amex{
+    background-position: 50% -102px;
+}
+.vjs-providers > li#amazon{
+    background-position: 50% -136px;
+}
+.vjs-providers > li#jcb{
+    background-position: 50% -170px;
+}
+.vjs-providers > li#google{
+    background-position: 50% -204px;
+}
+.vjs-providers > li#visa{
+    background-position: 50% -238px;
+}
+.vjs-providers > li#stripe{
+    background-position: 50% -272px;
+}
+.vjs-providers > li#sage{
+    background-position: 50% -306px;
+}
+.vjs-providers > li#paypal{
+    background-position: 50% -340px;
+}
+.vjs-providers > li#maestro{
+    background-position: 50% -374px;
+}
+.vjs-providers > li#bitcoin{
+    background-position: 50% -408px;
+}
+.vjs-providers > li#apple{
+    background-position: 50% -442px;
+}
+.vjs-providers > li#android{
+    background-position: 50% -476px;
+}
+.vjs-providers > li#contactless{
+    background-position: 50% -510px;
+}
+.vjs-providers > li#square{
+    background-position: 50% -544px;
+}
+.vjs-providers > li#mastercard{
+    background-position: 50% -578px;
+}
+.vjs-providers > li#directdebt{
+    background-position: 50% -612px;
+}
+.vjs-providers > li#dinersclub{
+    background-position: 50% -646px;
+}
+
+/* End Card Provider */
+
+
+/* Card Expiration & Security */
+
+.vjs-info > .vjs-exp{
+    float:left;
+    width:70%;
+    padding-right:10px;
+}
+
+.vjs-info >.vjs-cvc{
+    float:right;
+    width: 30%;
+}
+
+
+
+.vjs-info .vjs-exp select{
+    float:left;
+    width:100%;
+    padding-left:6px;
+}
+
+.vjs-info .vjs-exp .vjs-month,
+.vjs-info .vjs-exp .vjs-year{
+    width: 50%;
+    float: left;
+}
+
+.vjs-info .vjs-exp .vjs-month > select{
+    border-top:1px solid #c4c4c4; 
+    border-bottom:1px solid #c4c4c4;   
+    border-left:1px solid #c4c4c4;  
+    border-right:none;
+    -webkit-border-radius: 3px 0px 0px 3px; 
+    -moz-border-radius: 3px 0px 0px 3px; 
+    border-radius: 3px 0px 0px 3px; 
+}
+
+.vjs-info .vjs-exp .vjs-year > select{
+    border-top:1px solid #c4c4c4; 
+    border-bottom:1px solid #c4c4c4;   
+    border-right:1px solid #c4c4c4;  
+    -webkit-border-radius: 0px 3px 0px 3px; 
+    -moz-border-radius: 0px 3px 0px 3px; 
+    border-radius: 0px 3px 3px 0px; 
+}
+/* End Card Expiration & Security */
+
+/* Begin Compact Form Styling */
+.vjs-form.vjs-no-label div > label,
+.vjs-form.vjs-compact div > label,
+.vjs-form.vjs-no-card .vjs-card-provider
+{
+    display:none;
+}
+
+.vjs-form.vjs-no-card .vjs-number > input{
+    width:100%;
+}
+
+.vjs-form.vjs-compact .vjs-number,
+.vjs-form.vjs-compact .vjs-info{
+    margin:0;
+}
+
+.vjs-form.vjs-compact .vjs-card-provider,
+.vjs-form.vjs-compact .vjs-number > input,
+.vjs-form.vjs-compact .vjs-year > select{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.vjs-form.vjs-compact .vjs-exp{
+    padding:0;
+}
+
+.vjs-form.vjs-compact .vjs-name > input{
+    border-bottom: none;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    -moz-border-radius: 3px 3px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.vjs-form.vjs-compact .vjs-month > select,
+.vjs-form.vjs-compact .vjs-year > select,
+.vjs-form.vjs-compact .vjs-cvc > input{
+    border-top: none;
+}
+
+.vjs-form.vjs-compact .vjs-month > select{
+    -webkit-border-radius: 0px 3px 0px 3px;
+    -moz-border-radius: 0px 3px 0px 3px;
+    border-radius: 0px 3px 0px 3px;
+}
+
+.vjs-form.vjs-compact .vjs-cvc > input{
+    border-left: none;
+    -webkit-border-radius: 0px 0px 3px 0px;
+    -moz-border-radius: 0px 0px 3px 0px;
+    border-radius: 0px 0px 3px 0px;
+}
+
+.vjs-form.vjs-compact input:hover,
+.vjs-form.vjs-compact select:hover{
+}
+
+.vjs-form.vjs-compact input:focus,
+.vjs-form.vjs-compact select:focus
+{
+    position: relative;
+    z-index: 10;
+}
+
+/* Valdiator Tooltips */
+
+.vjs-error-tip {
+    position:absolute;
+    bottom:0;
+    left:50%;
+    margin-bottom: 44px;
+    color: #fff;
+    background: #C34343;
+    padding: 6px 10px;
+    font-size: 11px;
+    border-radius: 5px;
+    z-index: 9999;
+    text-align: center;
+    line-height: 12px;
+}
+
+.vjs-error-tip:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 5px #C34343;
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+}
+
